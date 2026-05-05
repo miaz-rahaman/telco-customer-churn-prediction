@@ -62,7 +62,7 @@ dashboard/
 
 ## 📊 Sample Visualizations
 
-![Churn Distribution](images/correlation.png)
+![Churn Distribution](images/correlation_heatmap.png)
 
 ---
 
