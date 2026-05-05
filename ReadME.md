@@ -2,7 +2,24 @@
 
 ## 🚀 Overview
 
-Analyzed customer churn behavior using data analytics and machine learning to identify key factors influencing customer retention.
+This project analyzes telecom customer churn using data analytics and machine learning to identify high-risk customers and improve retention strategies.
+
+📌 Achieved:
+- ~79% model accuracy
+- Improved churn detection using threshold tuning
+- Identified key drivers like tenure, contract type, and monthly charges
+
+## 📊 Dashboard Preview
+
+![Dashboard](images/Dashboard.png)
+
+---
+
+## 📈 Key Results
+
+- Customers with tenure < 12 months have highest churn risk  
+- Month-to-month contracts show significantly higher churn  
+- High monthly charges strongly correlate with churn  
 
 ---
 
@@ -16,19 +33,12 @@ Analyzed customer churn behavior using data analytics and machine learning to id
 
 ---
 
-## 📊 Key Insights
+## 🤖 Model Comparison
 
-* Customers with low tenure are more likely to churn
-* High monthly charges increase churn probability
-* Month-to-month contracts show highest churn rate
-
----
-
-## 🤖 Model Performance
-
-* Accuracy: ~79%
-* Precision: ~59%
-* Recall: ~61%
+| Model              | Accuracy | Recall (Churn) |
+|--------------------|----------|----------------|
+| Logistic Regression| ~80%     | ~52%           |
+| Random Forest      | ~79%     | ~61%           |
 
 ---
 
@@ -66,9 +76,14 @@ dashboard/
 
 ---
 
+=======
+
 ## 💼 Business Impact
 
-Helps telecom companies identify at-risk customers and take proactive retention measures.
+This analysis helps telecom companies:
+- Identify at-risk customers early  
+- Reduce churn through targeted interventions  
+- Optimize retention costs  
 
 ---
 
